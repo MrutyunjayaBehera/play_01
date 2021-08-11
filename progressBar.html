@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    progress{
+      align-items: center;
+      height: 32px;
+      width: 302px;
+    }
+  </style>
+
+
+  <progress value="34" max="100">
+    this is the progress
+  </progress>
+  <button>Add</button>
+  <p>fuck me</p>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('button').click(function() {
+        $('progress').hide();
+      })
+    })
+  </script>
+</body>
+</html>

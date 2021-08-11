@@ -1,0 +1,114 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Lily+Script+One';
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.flip-card{ */
+  /* background-color: transparent; */
+  /* height: 400px;
+  perspective: 1000px;
+}
+.flip-card-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; */
+  /* box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); */
+/* }
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.flip-card-front{
+  background-color: #bbb;
+  color: black;
+  text-align: center;
+}
+.flip-card-front img {
+  width: 100%;
+  border-top-left-radius: 10px;
+}
+.flip-card-back{
+  background-color: #2980b9;
+  color: white;
+  padding: 15px;
+  transform: rotateY(180deg);
+}
+b{
+  color: orange;
+}
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* .card-container{
+  width: 100%;
+  height: 100%;
+}
+h1{
+  color: #333;
+  text-align: center;
+  margin: 100px auto 50px;
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 30%;
+  overflow: hidden;
+}
+.flipcard{
+  width: 350vw;
+  height: 350vh;
+  margin: auto;
+  perspective: 1000px;
+  cursor: pointer;
+}
+.inner_box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+.card-front, .card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.card-front{
+  background-position: center;
+  background-size: cover;
+}
+.card-front img{
+  width: 15vw;
+}
+span{
+  display: inline-block;
+  width: 100px;
+  padding: 14px 0;
+  background: #fff;
+} */
+
